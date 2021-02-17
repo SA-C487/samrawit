@@ -1,0 +1,129 @@
+<html>
+<head>
+ <title>samrawit salon</title>
+ <link rel="stylesheet" href="style.css"> 
+ <meta name="viewport"content="width=device-width,initial-scale=1">
+ <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+<section  id="salon">
+    <div  class="salon-text">
+         <h1>samra beauty salon</h1>
+         <p> beauty is the color of our world.females beauty is the most important than any of other beauty</p>
+         <div  class="salon-btn">
+               <a href="#"><span></span>find out</a>
+               <a href="#"><span></span>read more</a>
+         </div>
+     </div>
+ </section>
+ <div id="rightnav">
+     <nav>
+     <ul>
+         <li><a href="#salon">HOME</a></li>
+         <li><a href="#feature">FEATURES</a></li>
+         <li><a href="#service">SERVICES</a></li>
+         <li><a href="#footer">MEET US</a></li>
+     </ul>
+     </nav>
+ </div>
+ <div  id="menubtn">
+     <img src="images.html/m.png" id="photo">
+ </div>
+
+ 
+ <!--features-->
+ <section id="feature">
+
+ <div class="title-text">
+<p>FEATURES</p>
+<h1> why choose us</h1>
+<p> we Keep clients happy more than a good haircut or other services. By focusing on clients every time we visit and making you feel special, you ensure repeat visits and word of mouth praise that can bring in new customers<br>Keeping up with technology is important in any business. Rather than using old-fashioned techniques, software geared toward salons can keep a business running smoothly. From scheduling and marketing to sending out automated emails with specials, there is technology that can take a salon to the next level. New techniques for marketing your salon may be a welcome addition.</p>
+ </div class="feature-img">
+      
+ <img src="images.html/b.jpg " width="30%" height="50%">
+ <img src="images.html/a.jpg " width="30%" height="50%">
+ <img src="images.html/c.jpg " width="30%" height="50%">
+ </div>
+</div>
+</section>
+<!--services-->
+<section id="service">
+<div  id="services"> 
+<div class="title-service">
+    <p>SERVICES</p>
+    <h1>we provide better </h1>
+    <p>At samra, we offer a complete range of beauty services to fit your needs.</p>
+    <br/>
+    <p>Below is a complete list of our services</p>
+    <br/><br/>
+    <p>1) facials and skin care treatments</p>
+    <p>2) colouring and styling</p>
+    <p>3) waxing and other forms of hair removal</p>.
+    <p>4) massages</p>
+    <p>5) nail treatments</p>
+  </div class="service-img">
+      <img src="images.html/e.jpg " width="18%" height="50%">
+<img src="images.html/n.jpg " width="18%" height="50%">
+<img src="images.html/G.jpg " width="18%" height="50%">
+<img src="images.html/h.jpg " width="18%" height="50%">
+<img src="images.html/i.jpg " width="18%" height="50%">
+          <br/>
+<div class="video">
+<video width="400"controls="controls" poster="images.html/f.jpg">
+ <source src="video.html/samra beauty salon.mp4" video="web/mp4"/>   
+</video>
+</div>
+</div>
+</div>
+</section>
+<!--footer-->
+<section  id="footer">
+    <div class="title-service">
+        <p>CONTACT</p>
+        <h1>visit the salon today</h1>
+    </div>
+    <div class="footer-one">
+    <div class="footer-two">
+        <h1>OPENING HOURS</h1>
+        <p>SUNDAY TO SUNDAY</p>
+    </div>
+    <div class="footer-three">
+        <h1>GET IN TOUCH</h1>
+        <P> adress:chagni around ethiopia hotel</P>
+        <P> email:samashu30@gmail.com</P>
+        <P> phone:+251 911122343</P>
+    </div>
+    </div>
+
+</section>
+</div>
+   </div>       
+
+        
+</div>
+</div>
+
+ 
+ <script>
+  var menubtn = document.getElementById("menubtn")
+  var rightnav = document.getElementById("rightnav")
+  var photo = document.getElementById("photo")
+
+  rightnav.style.right == "-250px";
+
+  menubtn.onclick = function(){
+      if(rightnav.style.right == "-250px"){
+          rightnav.style.right = "0";
+      }
+      else{
+          rightnav.style.right = "-250px";
+      }
+  }
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 100,
+	speedAsDuration: true
+});
+  </script>
+    
+</body>
+</html>
